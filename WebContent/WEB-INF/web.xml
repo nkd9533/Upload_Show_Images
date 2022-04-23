@@ -1,0 +1,22 @@
+<web-app>
+<welcome-file-list>
+	<welcome-file>upload2.html</welcome-file>
+</welcome-file-list>
+<servlet>
+<servlet-name>StoreImageServlet</servlet-name>
+<servlet-class>StoreImageServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>StoreImageServlet</servlet-name>
+<url-pattern>/image12</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>ShowImageServlet</servlet-name>
+<servlet-class>ShowImageServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ShowImageServlet</servlet-name>
+<url-pattern>/image13</url-pattern>
+</servlet-mapping>
+
+</web-app>
